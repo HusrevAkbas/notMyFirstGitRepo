@@ -1,0 +1,62 @@
+Day 1:
+----
+STEP1:Create a project on intelliJ
+Open your intelliJ
+Click next
+Name: my_github_project
+----
+STEP 2: Crate GitHub Repository
+*Repository(git repo) means github project folder. We must create a repository to store project.
+* We installed git.
+->https://github.com/ and login
+* Click on your profile
+* Click on Repositories
+* Click on New
+*Repository Name : my-first-git-repo
+* Select public or private
+------
+STEP 3: Pust the codes to GitHub
+* Open intelliJ Terminal
+* Then fallow the instruction on github!
+	-git init
+	Done only once for each project. This is used for the initializing the project. This will create .git folder to store the project versions.
+	Note: If you see: The term 'git' is not recognized
+	It means github installation is not complated.
+	-git add .
+	Done after each code change. It adds the codes in staging area.
+	-git commit -m "first commit"
+	Done after each code change. This is used for creating new version oj the project.
+	-git branch -M main
+	Done once for each code project.
+	-git remote add origin https://github.com/yasinaniltechpro/my-first-git-repo.git
+	Done once for each code project.
+	-git push -u origin main
+	Done once for each code project.
+
+DONE!!!
+****Git Push Practice****
+After the first push, we do not use some of the commits that we used in the first.
+1. Create a new java class under src.
+2. Create main method and write code:
+public class MyGitClass {
+    public static void main(String[] args) {
+        System.out.println("I am learning GitHub!!");
+    }
+}
+3. Then push this code to the same repository.
+-git add .
+-git commit -m "second commit"
+-git push
+-----------------
+How to pull the code from GitHub to local computer
+-Create q new file:text_file.txt
+-Add some comments:
+This is my code!!!
+-Commit new file
+(Now we created a file in GitHub)
+*We will get that code from GitHub to IntelliJ
+	** git pull
+***USEFULL COMMENDS:
+	-git status
+	:This is our friend. We can see status of our codes.
+	We can use this anytime to see where you are.
